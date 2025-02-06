@@ -53,7 +53,7 @@ sudo apt install libglfw3-dev libxinerama-dev libxcursor-dev libxi-dev
 ```
 ```bash
 git clone https://github.com/google-deepmind/mujoco.git
-mkdir build && cd build
+mkdir mujoco/build && cd mujoco/build
 cmake ..
 make -j4
 sudo make install
