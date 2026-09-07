@@ -94,6 +94,8 @@ IDL，也可以通过 `-t 1` 显式指定。在 `simulate/build` 中运行平地
 ./unitree_mujoco -r as2 -s plane_terrain.xml -t 1
 ```
 
+将场景名替换为 `scene_terrain.xml` 可以加载复杂地形。
+
 ## Python 仿真器 (simulate_python)
 ### 1. 依赖
 #### unitree_sdk2_python
